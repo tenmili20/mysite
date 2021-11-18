@@ -1,15 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
     background-color: rgba(34,49,52,0.9);
     height: 65px;
-    z-index: 1;
-    position: relative;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
 }
 
-ul , body{
+ul , body,h2{
     margin: 0;
 }
 
 .container {
+    color: rgba(53, 25, 25, 0.5);
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
@@ -45,12 +51,10 @@ ul , body{
 }
 
 .top-contents {
-    color: rgba(53, 25, 25, 0.5);
     padding: 180px 0 100px 0;
     background-image: url(22021381_l.jpg);
     background-size: cover;
     text-align: center;
-    position: absolute;
     top: 0;
     width: 100%;
 }
@@ -82,7 +86,6 @@ ul , body{
     opacity: 1.0;
 }
 
-
 .shinki {
     background-color: #239b76;
 }
@@ -94,4 +97,54 @@ ul , body{
 
 .twitter {
     background-color: #55acee;
+}
+
+.main-contents {
+    text-align: center;
+    background-color: #f7f7f7;
+    height: 610px;
+}
+
+.main-contents h2 {
+    padding: 80px 0 60px;
+}
+
+.lesson {
+    float:  left;
+    width: 25%;
+    position: relative;
+    padding: 0 54px;
+}
+
+.lesson-title{
+    position: absolute;
+    top: 84px;
+    left: 163px;
+}
+
+.lesson img {
+    left: 9px;
+    top: 26px;
+}
+
+.bottom-contents {
+    height: 350px;
+    text-align: center;
+}
+
+.heading {
+    padding: 80px 0 50px 0;
+}
+
+.kaihatsu {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0px 7px #1a7940;
+}
+
+.kaihatsu:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
 }
