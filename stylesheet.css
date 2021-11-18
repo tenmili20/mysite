@@ -1,0 +1,97 @@
+header {
+    background-color: rgba(34,49,52,0.9);
+    height: 65px;
+    z-index: 1;
+    position: relative;
+}
+
+ul , body{
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-left {
+    float: left;
+    line-height: 65px;
+}
+
+.header-left img {
+    width: 124px;
+    margin-top: 20px
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding: 0 25px ;
+    line-height: 65px;
+    transition: all 0.5s;
+    text-decoration: none;
+    float: left;
+}
+
+.header-right a:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+
+.top-contents {
+    color: rgba(53, 25, 25, 0.5);
+    padding: 180px 0 100px 0;
+    background-image: url(22021381_l.jpg);
+    background-size: cover;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.top-contents-p {
+    margin-bottom: 40px;
+}
+
+.top-contents h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.btn-p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 8px 24px;
+    color:rgba(53, 25, 25);
+    display: inline-block;
+    opacity: 0.9;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1.0;
+}
+
+
+.shinki {
+    background-color: #239b76;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: #55acee;
+}
